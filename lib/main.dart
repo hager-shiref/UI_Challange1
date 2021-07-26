@@ -30,7 +30,6 @@ class MyApp extends StatelessWidget {
                         fontSize: 30),
                   ),
                 ),
-
                 Padding(
                   padding: const EdgeInsets.all(15.0),
                   child: Text(
@@ -40,7 +39,6 @@ class MyApp extends StatelessWidget {
                     ),
                   ),
                 ),
-
                 Padding(
                   padding: const EdgeInsets.all(15.0),
                   child: Text(
