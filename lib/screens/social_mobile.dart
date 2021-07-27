@@ -14,8 +14,8 @@ class SocialMobile extends StatelessWidget {
               margin: EdgeInsets.symmetric(horizontal: 40, vertical: 10),
               decoration:
                   BoxDecoration(border: Border.all(color: Colors.white)),
-              height: MediaQuery.of(context).size.height/4,
-              width: MediaQuery.of(context).size.width/6,
+              height: MediaQuery.of(context).size.height / 4,
+              width: MediaQuery.of(context).size.width / 6,
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
