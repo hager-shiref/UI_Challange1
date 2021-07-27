@@ -15,7 +15,7 @@ class SocialWebScreen extends StatelessWidget {
             return Column(
               children: [
                 Container(
-                  height: MediaQuery.of(context).size.height / 5,
+                  height: MediaQuery.of(context).size.height / 4.5,
                   width: MediaQuery.of(context).size.width / 7,
                   margin: EdgeInsets.symmetric(horizontal: 20, vertical: 25),
                   decoration:
@@ -31,8 +31,8 @@ class SocialWebScreen extends StatelessWidget {
                       Container(
                         margin:
                             EdgeInsets.symmetric(horizontal: 10, vertical: 5),
-                        height: 70,
-                        width: 70,
+                        height: MediaQuery.of(context).size.height / 10,
+                        width: MediaQuery.of(context).size.width / 6,
                         color: social1[index]['color'],
                       ),
                       SizedBox(
@@ -53,7 +53,7 @@ class SocialWebScreen extends StatelessWidget {
                   ),
                 ),
                 Container(
-                  height: MediaQuery.of(context).size.height / 5,
+                  height: MediaQuery.of(context).size.height / 4.5,
                   width: MediaQuery.of(context).size.width / 7,
                   margin: EdgeInsets.symmetric(horizontal: 20, vertical: 25),
                   decoration:
@@ -69,8 +69,8 @@ class SocialWebScreen extends StatelessWidget {
                       Container(
                         margin:
                             EdgeInsets.symmetric(horizontal: 10, vertical: 5),
-                        height: 70,
-                        width: 70,
+                        height: MediaQuery.of(context).size.height / 10,
+                        width: MediaQuery.of(context).size.width / 6,
                         color: social2[index]['color'],
                       ),
                       SizedBox(
